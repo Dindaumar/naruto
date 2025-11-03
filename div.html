@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Layout Dasar dengan Div</title>
+        <style>
+            body{
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif
+            }
+            
+            .header{
+                background: rgb(67, 242, 248);
+                color:white;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* Kontainer utama */
+            .container{
+                display: flex;
+                min-height: 70vh;
+            }
+
+            /* sidebar */
+            .sidebar{ 
+                background: white;
+                width: 25%;
+                padding: 20px;
+            }
+
+            /* Konten utama */
+            .content{
+                background: white;
+                flex: 1;
+                padding: 20px;
+            }
+                /* footer */
+                .footer{
+                    background: rgb(0, 0, 0);
+                    color:white;
+                    text-align: center;
+                    padding: 15px;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="header ">
+            <h1> Judul website</h1>
+            </div>
+
+            <div class="container">
+                <div class="sidebar">
+                    <h3> menu </h3>
+                    <ul>
+                     <li>Beranda</li>
+                     <li>Tentang</li>
+                     <li>Kontak</li>
+                        </ul>
+                        </div>
+
+                <div class="content">
+                    <h2>Konten Utama</h2>
+                    <p>Ini adalah area utama untuk menampilkan isi halaman.</p>
+                    </div>        
+                    </div>
+
+                    <div class="footer">
+                        <p>@ 2025-semua Hak Dilindungi</p>
+                        </div>
+                        </body>
+                        </html>

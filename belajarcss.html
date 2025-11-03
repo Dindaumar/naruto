@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button</title>
+    <style>
+        .Button-subscribe{
+            border: 200;
+            background-color: rgba(254, 6, 2, 0.911);
+            display: inline-block;
+            color: aliceblue;
+            border-radius: 2px;
+            transition: transform 0,5s,background-color 1s;
+
+        }
+        .Button-subscribe:hover {
+            background-color: rgb(116, 3, 3);
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+
+        .Button-like{
+            border: 200;
+            background-color: aqua;
+            color: aliceblue;
+        }
+        .Button-share{
+            border: 200;
+            background-color: rgb(242, 163, 176);
+            color: aliceblue;
+            border-radius: 2px;
+            transition: transform 0.5s, background-color 1s;
+        }
+        .Button-share:hover {
+            background-color:rgb(29, 233, 233) ;
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+        .Button-like :active{
+            background-color: rgb(157, 245, 245);
+        }
+         
+        .Button-share:hover{
+            background-color: rgba(232, 123, 242, 0.977);
+            cursor: pointer;
+        }
+        .Button-share:active{
+            background-color: rgb(146, 5, 159);
+        }
+ .zoom { 
+    width: 200px;
+    transition: transform 1s ; 
+    box-shadow: 6px  4px 20px;
+}
+
+.zoom:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.zoom:active {
+    transform: scale(1.1) rotate(15deg);
+}
+
+        </style>
+</head>
+<body>
+    <Button class="Button-subscribe">subscribe</Button>
+    <Button class="Button-like">Like</Button>
+    <button class="Button-share">share</button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG7f3IwWgNSGr6xvTlaYRGzTwdM7TfCtlBbw&s"class="zoom" alt="image">
+</body>
+</html>
+
+</body>
+</html>

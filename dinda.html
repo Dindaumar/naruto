@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naruto - Website Penggemar</title>
+
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0b0b0b;
+      color: #ffa500;
+    }
+
+    /* HEADER */
+    .header {
+      background-color: #111;
+      color: #ffb347;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 5px solid #ff7a18;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px #000;
+    }
+
+    .logo {
+      height: 300px;
+      width: auto;
+      margin-bottom: 2px;
+      border-radius: 10px;
+    }
+
+    /* KONTEN UTAMA */
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 20px auto 100px;
+      background-color: #111;
+      box-shadow: 0 0 20px rgba(255, 165, 0, 0.3);
+      border-radius: 8px;
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+      width: 250px;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #ffa500;
+      border-right: 2px solid #ff7a18;
+    }
+
+    .sidebar h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #ff7a18;
+      padding-bottom: 10px;
+      font-size: 1.5em;
+      text-transform: uppercase;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin: 10px 0;
+    }
+
+    .sidebar ul li a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 8px;
+      border-radius: 4px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .sidebar ul li a:hover {
+      background-color: #ff7a18;
+      transform: translateX(5px);
+    }
+
+    /* ISI KONTEN */
+    .content {
+      flex-grow: 1;
+      padding: 40px;
+    }
+
+    .content h2 {
+      color: #ffa500;
+      border-bottom: 2px solid #ff7a18;
+      padding-bottom: 10px;
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+
+    .content img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 50px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 165, 0, 0.4);
+    }
+
+    /* FOOTER */
+    .footer {
+      background-color: #111;
+      color: #ffb347;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      border-top: 2px solid #ff7a18;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <img src="images.jpg naruto 3.jpg" alt="Logo Naruto" class="logo">
+    <h1><strong>Naruto Uzumaki</strong></h1>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#" onclick="tampilkanKonten('Beranda', 'Selamat datang di dunia shinobi! 🌟<br>Jelajahi kisah epik Naruto Uzumaki dan para ninja dari Desa Konoha!')">Beranda</a></li>
+        <li><a href="#" onclick="tampilkanKonten('Tentang Naruto', 'Naruto adalah ninja muda dari Konoha yang bermimpi menjadi Hokage. Ia memiliki tekad kuat dan semangat pantang menyerah, dikenal dengan jurus andalannya <em>Rasengan</em> dan <em>Shadow Clone Jutsu</em>.')">Tentang Naruto</a></li>
+        <li><a href="#" onclick="tampilkanKonten('Karakter', 'Teman dan rival Naruto: <ul><li><strong>Sasuke Uchiha</strong> - pengendali Sharingan.</li><li><strong>Sakura Haruno</strong> - ninja medis kuat.</li><li><strong>Kakashi Hatake</strong> - sensei tim 7.</li></ul>')">Karakter</a></li>
+        <li><a href="#" onclick="tampilkanKonten('Berita Terbaru', '🔥 Boruto: Two Blue Vortex kini melanjutkan kisah generasi baru shinobi! Ikuti petualangan Boruto dan Sarada menghadapi ancaman baru.')">Berita Terbaru</a></li>
+        <li><a href="#" onclick="tampilkanKonten('Kontak', 'Hubungi kami di: <br><strong>narutofansid@gmail.com</strong><br>atau ikuti Instagram: <strong>@NarutoFansID</strong>')">Kontak</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h2>Beranda</h2>
+      <p>Naruto adalah sebuah serial manga dan anime yang diciptakan oleh masashi Kishimoto <strong>Naruto</strong>! 🍥</p>
+      <img src="naruto .jpg" alt="Naruto Uzumaki">
+    </main>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 - Karya Penggemar Naruto | Semua hak cipta milik Masashi Kishimoto
+  </footer>
+</body>
+</html>
